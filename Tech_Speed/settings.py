@@ -143,7 +143,7 @@ PAYPAL_RECEIVER_EMAIL='sahooc300@gmail.com'
 PAYPAL_TEST=True
 
 # Activate Django-Heroku.
-#django_heroku.settings(locals())
+django_heroku.settings(locals())
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
